@@ -5,15 +5,15 @@ for(var a=1; a<=10; a++){
 }
 var a=1;
 while(a<=10){
-    a++;
-console.log(a);
 
+console.log(a);
+a++;
 }
 var a=1;
 do{
-    a++
-console.log(a);
 
+console.log(a);
+a++
 }while(a<=10);
 // task 2
 // ---------------------------------
@@ -25,47 +25,50 @@ for(var a=1;a<=10;a++){
 }
 var a=1;
 while(a<=10){
-    a++;
+
     if(a%2===0)
     {
         console.log(a +" "+"is even no");
     }
-
+    a++;
 
 }
 var a=1;
 do {
-a++;
+
 if(a%2===0)
         {
             console.log(a +" "+"is even no");
         }
+        a++;
 }while(a<=10);
 // task 3
 // -----------------------------------
 for(var a=1;a<=10;a++){
-  if (a%2===1){
-    console.log(a +" "+"is even no");
+  if (a%2!=0){
+    console.log(a +" "+"is odd no");
   }
 
 }
 var a=1;
 while(a<=10){
-    a++;
-    if(a%2===1)
+
+    if(a%2!=0)
     {
-        console.log(a +" "+"is even no");
+        console.log(a +" "+"is odd no");
     }
+    a++;
 
 
 }
 var a=1;
 do {
-a++;
-if(a%2===1)
+
+if(a%2!=0)
         {
-            console.log(a +" "+"is even no");
+            console.log(a +" "+"is odd no");
         }
+        a++;
 }while(a<=10);
 // // Task 4 ----------------------
 
